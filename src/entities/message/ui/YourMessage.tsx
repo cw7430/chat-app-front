@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 import styles from './MessageItem.module.css';
-import type { MessageResponseDto } from '@/entities/message/schema/MessageSchema';
+import type { MessageResponseDto } from '@/entities/message/schema/messageSchema';
 import type { UserResponseDto } from '@/entities/user';
 
 interface Props {

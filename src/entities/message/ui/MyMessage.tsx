@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './MessageItem.module.css';
-import type { MessageResponseDto } from '@/entities/message/schema/MessageSchema';
+import type { MessageResponseDto } from '@/entities/message/schema/messageSchema';
 
 interface Props {
   message: MessageResponseDto;
