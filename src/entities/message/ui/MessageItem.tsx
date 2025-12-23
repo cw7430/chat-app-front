@@ -5,7 +5,7 @@ import { Container } from '@mui/material';
 import SystemMessage from './SystemMessage';
 import MyMessage from './MyMessage';
 import YourMessage from './YourMessage';
-import type { MessageResponseDto } from '@/entities/message/schema/MessageSchema';
+import type { MessageResponseDto } from '@/entities/message/schema/messageSchema';
 import type { UserResponseDto } from '@/entities/user';
 
 interface Props {
